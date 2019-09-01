@@ -3,15 +3,6 @@
 let pos = 0;
 let speed = 180;
 let typewriter = document.querySelector(".typewritten").textContent;
-let btn = document.querySelector("#btn");
-let src = document.querySelector(".hidetext");
-
-btn.addEventListener("click", startAnim);
-
-function startAnim() {
-  btn.classList.add("hidebtn");
-  src.classList.remove("hidetext");
-}
 
 //console.log(typewriter);
 
