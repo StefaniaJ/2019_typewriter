@@ -2,10 +2,35 @@
   font-family: "Special Elite", cursive;
 }
 
-.hidebtn {
+.hidetext {
   display: none;
 }
 
-.hidetext {
+#btn {
+  background-color: #212440;
+  text-transform: uppercase;
+  color: orange;
+  padding: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 15em;
+  border-radius: 5px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  border-style: double;
+  border-color: black;
+  text-align: center;
+  margin-left: 45%;
+  animation: glowing 0.5s infinite alternate;
+  cursor: pointer;
+}
+
+@keyframes glowing {
+  to {
+    filter: drop-shadow(5px 5px 7px black);
+  }
+}
+
+.hidebtn {
   display: none;
 }
