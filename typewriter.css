@@ -1,3 +1,11 @@
 .typewritten {
-    font-family: 'Special Elite', cursive;        
+  font-family: "Special Elite", cursive;
+}
+
+.hidebtn {
+  display: none;
+}
+
+.hidetext {
+  display: none;
 }
